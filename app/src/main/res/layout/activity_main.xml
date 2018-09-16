@@ -8,15 +8,15 @@
     android:orientation="vertical"
 
     tools:context=".MainActivity">
-    <EditText
-        android:id="@+id/eText1"
+    <TextView
+        android:id="@+id/txt1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ingrese Nombre"
         />
 
-    <TextView
-        android:id="@+id/txt1"
+    <EditText
+        android:id="@+id/eText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="Perez"
@@ -28,15 +28,15 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
-        <EditText
-            android:id="@+id/eText2"
+        <TextView
+            android:id="@+id/txt2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ingrese Apellido"
             />
 
-        <TextView
-            android:id="@+id/txt2"
+        <EditText
+            android:id="@+id/eText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="Perez"
@@ -48,15 +48,15 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
-        <EditText
-            android:id="@+id/eText3"
+        <TextView
+            android:id="@+id/txt3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="DNI"
             />
 
-        <TextView
-            android:id="@+id/txt3"
+        <EditText
+            android:id="@+id/eText3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="33.333.333"
@@ -67,8 +67,8 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
-        <EditText
-            android:id="@+id/eText4"
+        <TextView
+            android:id="@+id/txt4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="SEXO: "
@@ -79,10 +79,12 @@
             android:orientation="vertical"
             >
         <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rd1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="MUJER"/>
         <android.support.v7.widget.AppCompatRadioButton
+            android:id="@+id/rd2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="HOMBRE"/>
@@ -97,7 +99,7 @@
         android:orientation="horizontal"
         >
         <Button
-            android:id="@+id/btnIgual"
+            android:id="@+id/btnGuardar"
             android:text="Guardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
